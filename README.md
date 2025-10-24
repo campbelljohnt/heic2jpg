@@ -8,7 +8,7 @@ This project provides a **simple and fast tool** for converting **HEIC/HEIF** ph
 Many free or built‑in converters strip GPS and other EXIF data during conversion. Paid tools exist, but this project aims to do the job **transparently, offline, and free**.
 
 ### The Story
-Field data collectors often export images directly from their iPhones as **.HEIC** files. These files contain valuable GPS metadata, but Windows‑based systems and many conversion tools remove that data when saving to JPG. To solve this, **John Campbell** created a lightweight Python utility that preserves GPS coordinates and other EXIF tags during conversion.
+Field data collectors often export images directly from their iPhones as **.HEIC** files. These files contain valuable GPS metadata, but Windows‑based systems and many conversion tools remove that data when saving to JPG. To solve this, I created a lightweight Python utility that preserves GPS coordinates and other EXIF tags during conversion.
 
 ### Features
 - 🔍 Preserves all EXIF data (GPS, timestamps, orientation, etc.)
